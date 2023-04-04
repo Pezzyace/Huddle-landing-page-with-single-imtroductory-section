@@ -1,0 +1,124 @@
+p{
+  font-size: 15px;
+}
+body{
+  background-image: url(../images/bg-desktop.svg);
+  background-color: hsl(257, 40%, 49%);
+  margin: 0;
+}
+.page{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 50px 0px 30px 70px;
+}
+.body{
+  display: flex;
+  flex-direction: row;
+}
+.left{
+  margin-right: 50px;
+}
+.pic{
+  width: 550px;
+}
+.right{
+  width: 450px;
+  padding: 30px 50px 30px 15px;
+}
+.top{
+  margin: 50px 0px 50px 70px;
+}
+.logo{
+  height: 40px;
+}
+.top1{
+  color: white;
+  font-size: 35px;
+  font-weight: 700px;
+  font-family: 'Poppins', sans-serif;
+}
+.top2{
+  color: white;
+  line-height: 25px;
+  font-size: 13px;
+  font-family: 'Open Sans', sans-serif;
+}
+.btn{
+  padding: 10px 80px;
+  border-radius: 30px;
+  border-style: none;
+  box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.25);
+  color: hsl(257, 40%, 49%);
+  font-size: 13px;
+  font-family: 'Open Sans', sans-serif;
+}
+.bottom{
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin-right: 150px;
+}
+.share{
+  height: 30px;
+  margin-left: 20px;
+  color: white;
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
+}
+
+
+@media (max-width: 375px){
+  body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: none;
+    background-image: url(../images/bg-mobile.svg);
+  }
+  .page{
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+  }
+  .body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .top{
+    margin: 20px 0px 30px 0px;
+    width: 330px;
+  }
+  .pic{
+    width: 330px;
+  }
+  .left{
+    margin: 0px 0px 30px 0px;
+  }
+  .right{
+    padding: 0;
+    width: 300px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .top1{
+    font-size: 25px;
+    font-weight: 700;
+  }
+  .top2{
+    font-size: 17px;
+    margin-bottom: 30px;
+  }
+  .bottom{
+    margin: 20px 0px 0px 0px;
+  }
+  .share{
+    margin: 0px 10px 0px 10px;
+  }
+  
+}
